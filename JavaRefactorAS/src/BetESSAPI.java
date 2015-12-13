@@ -20,6 +20,7 @@ public class BetESSAPI {
 		this.listaEventos = new Vector<Evento>();
 		this.listaApostadores = new Vector<Apostador>();
 		this.name = "BetESSAPI";
+                
 		this.in = new BufferedReader(new InputStreamReader(System.in));
 		this.out = System.out;
 	}
